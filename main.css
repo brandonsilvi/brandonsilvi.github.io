@@ -9,18 +9,38 @@
 
 .nav-bar {
     background-color: var(--primary-blue);
-    color: var(--text-color);
+    color: var(--primary-white);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 .banner {
     background-color: var(--secondary-green);
-    color: var(--text-color);
+    color: var(--primary-white);
+    text-align: center;
+    padding: 3rem 1rem;
 }
 body {
     background-color: var(--secondary-gray);
     color: var(--primary-black);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    color: var(--primary-blue);
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .footer-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
     background-color: var(--primary-blue);
-    color: var(--text-color);
+    color: var(--primary-white);
+}
+.footer-links a {
+    color: var(--primary-white);
 }
