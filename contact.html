@@ -6,6 +6,41 @@
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/png" href="images/favicon-rpc.png">
     <title>Contact Us - Renew Performance Center</title>
+    <style>
+        main {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea {
+            margin-top: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"], input[type="reset"] {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <div class="nav-bar">
@@ -24,9 +59,18 @@
         <h1>Welcome to Renew Performance Center</h1>
         <p>Your journey to better health starts here.</p>
     </div>
-    <article>
-    <p>main content here</p>
-    </article>
+    <main>
+        <p>Contact us for more information about our services.</p>
+        <form action="mailto:info@renewperformancecenter.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+    </main>
 <div class="footer-links">
     <a href="https://www.facebook.com/renewperformancecenterpasadena/" target="_blank">Facebook</a>
     <a href="https://www.instagram.com/renewperformancecenter/?hl=en" target="_blank">Instagram</a>

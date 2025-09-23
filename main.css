@@ -18,6 +18,8 @@
     color: var(--primary-white);
     margin: 0 1rem;
     text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
 }
 .nav-bar a:hover {
     text-decoration: underline;
@@ -71,4 +73,13 @@ h1, h2, h3 {
     padding: 2rem;
     width: 250px;
     text-align: center;
+}
+footer {
+    background-color: var(--primary-blue);
+    color: var(--primary-black);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
