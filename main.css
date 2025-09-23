@@ -7,24 +7,6 @@
     --text-color: #ffffff;
 }
 
-.nav-bar {
-    background-color: var(--primary-blue);
-    color: var(--primary-white);
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-}
-.nav-bar a {
-    color: var(--primary-white);
-    margin: 0 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: smaller;
-}
-.nav-bar a:hover {
-    text-decoration: underline;
-}
-
 .banner {
     background-color: var(--secondary-green);
     color: var(--primary-white);
@@ -82,4 +64,41 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+.nav-bar {
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+    
+}
+.nav-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.nav-bar a {
+    color: var(--primary-white);
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--secondary-green);
+;
+    
+}
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    display: flex;
+    align-items: center;
 }
