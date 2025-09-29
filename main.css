@@ -1,3 +1,4 @@
+/* Primary and Secondary Colors */
 :root {
     --primary-black: #000000;
     --primary-white: #ffffff;
@@ -6,13 +7,14 @@
     --secondary-green: #48BB78;
     --text-color: #ffffff;
 }
-
+/* Banner style */
 .banner {
     background-color: var(--secondary-green);
     color: var(--primary-white);
     text-align: center;
     padding: 3rem 1rem;
 }
+/* General Styles */
 body {
     background-color: var(--secondary-gray);
     color: var(--primary-black);
@@ -26,6 +28,7 @@ h1, h2, h3, h4 {
     font-weight: bold;
     font-style: italic;
 }
+/* Footer Links styling */
 .footer-links {
     display: flex;
     gap: 1rem;
@@ -41,6 +44,7 @@ h1, h2, h3, h4 {
 .footer-links a:hover {
     text-decoration: underline;
 }
+/* Card Styles */
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -66,6 +70,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Navigation Bar Styles */
 .nav-bar {
     background-color: var(--primary-blue);
     color: var(--primary-white);
@@ -96,6 +101,7 @@ footer {
 .nav-bar a:hover {
     text-decoration: underline;
 }
+/* Logo Styles */
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -103,11 +109,13 @@ footer {
     display: flex;
     align-items: center;
 }
+/* Arvo Font stylings */
 .arvo-bold-italic {
   font-family: "Arvo", serif;
   font-weight: 700;
   font-style: italic;
 }
+/* Dietician Partnerships Section */
 #dietician-partnerships {
     background-color: var(--secondary-gray);
     color: var(--primary-white);
