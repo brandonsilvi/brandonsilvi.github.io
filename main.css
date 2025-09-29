@@ -108,3 +108,8 @@ footer {
   font-weight: 700;
   font-style: italic;
 }
+#dietician-partnerships {
+    background-color: var(--secondary-gray);
+    color: var(--primary-white);
+    padding: 2rem;
+}
